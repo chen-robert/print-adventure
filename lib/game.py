@@ -120,7 +120,7 @@ class Game:
             return
         while (lowerName in lowerSaves or lowerName in invalNames
         or gameName[0] == "."):
-            gameName = input("Sorry, that game name is invalid. What would" +
+            gameName = input("Sorry, the name \"" gameName + "\" is invalid. What would" +
                              " you like to name this game? Type \"back\" to" +
                              " return to the main menu.\n").strip()
             lowerName = gameName.lower()
